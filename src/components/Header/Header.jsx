@@ -11,20 +11,33 @@ const HeaderContainer = styled.div`
   /* background: #e6e6e6; */
   background: white;
   color: black;
+
+  @media screen and (max-width: 700px){
+    flex-direction: column;
+  }
 `;
+
+
+const SubContainer = styled.div`
+  display: flex;
+  align-items: center;
+  padding: 39px;
+  justify-content: center;
+  margin-left: 10px;
+
+  @media screen and (max-width: 500px){
+    flex-direction: column;
+  }
+`;
+
 
 function Header() {
   return (
     <HeaderContainer>
-      <div
-        style={{
-          display: "flex",
-          alignItems: "center",
-          padding: "39px",
-          justifyContent: "center",
-          marginLeft: '10px'
-        }}
-      >
+      <SubContainer >
+
+     
+     
         <img width="50" height="80" src={flores} alt="flores" />
 
         <h2
@@ -34,10 +47,10 @@ function Header() {
             lineHeight: "10px",
             fontSize: "40px",
           }}
-        >
+          >
           Saúde Mental UFRGS
         </h2>
-      </div>
+      </SubContainer>
     </HeaderContainer>
   );
 }

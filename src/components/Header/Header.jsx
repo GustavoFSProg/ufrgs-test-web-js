@@ -12,9 +12,7 @@ const HeaderContainer = styled.div`
   background: white;
   color: black;
 
-  @media screen and (max-width: 700px){
-    flex-direction: column;
-  }
+ 
 `;
 
 
@@ -25,7 +23,7 @@ const SubContainer = styled.div`
   justify-content: center;
   margin-left: 10px;
 
-  @media screen and (max-width: 500px){
+  @media screen and (max-width: 600px){
     flex-direction: column;
   }
 `;

@@ -44,7 +44,7 @@ function Header() {
           style={{
             marginLeft: "22px",
             color: "#e84747",
-            lineHeight: "10px",
+            // lineHeight: "10px",
             fontSize: "40px",
           }}
           >

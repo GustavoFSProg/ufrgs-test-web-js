@@ -12,6 +12,10 @@ const FooterContainer = styled.div`
   background: #333333;
   color: white;
 
+  @media screen and (max-width: 800px){
+    margin-top: 680px;
+  }
+
 `;
 
 

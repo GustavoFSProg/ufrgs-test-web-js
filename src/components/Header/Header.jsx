@@ -12,9 +12,11 @@ const HeaderContainer = styled.div`
   background: white;
   color: black;
 
- 
+  @media screen and (max-width: 600px) {
+    justify-content: flex-start;
+    align-items: left;
+  }
 `;
-
 
 const SubContainer = styled.div`
   display: flex;
@@ -23,31 +25,40 @@ const SubContainer = styled.div`
   justify-content: center;
   margin-left: 10px;
 
-  @media screen and (max-width: 600px){
+  @media screen and (max-width: 600px) {
     flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: -5px;
+    padding: 28px;
   }
 `;
 
+const H2 = styled.h2`
+  display: flex;
+  margin-left: 22px;
+  color: #e84747;
+  letter-spacing: 1px;
+  font-size: 40px;
+
+  @media screen and (max-width: 600px) {
+    width: 100%;
+    font-size: 28px;
+    margin-left: 0px;
+    margin-top: 2px;
+  letter-spacing: 0px;
+
+  }
+`;
 
 function Header() {
   return (
     <HeaderContainer>
-      <SubContainer >
-
-     
-     
+      <SubContainer>
         <img width="50" height="80" src={flores} alt="flores" />
-
-        <h2
-          style={{
-            marginLeft: "22px",
-            color: "#e84747",
-            letterSpacing: "1px",
-            fontSize: "40px",
-          }}
-          >
-          Saúde Mental UFRGS
-        </h2>
+        {/* <div> */}
+        <H2>Saúde Mental UFRGS</H2>
+        {/* </div> */}
       </SubContainer>
     </HeaderContainer>
   );

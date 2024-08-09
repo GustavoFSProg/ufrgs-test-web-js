@@ -13,7 +13,7 @@ const FooterContainer = styled.div`
   color: white;
 
   @media screen and (max-width: 800px){
-    margin-top: 680px;
+    margin-top: 650px;
   }
 
 `;

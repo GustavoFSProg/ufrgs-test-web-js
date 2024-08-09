@@ -8,86 +8,86 @@ const MenuContainer = styled.div`
   justify-content: flex-start;
   align-items: center;
   font-family: "Francois One";
-  /* background: #e6e6e6; */
+  /* background: #e6e6e681; */
   background: #333333;
   color: white;
+`;
+
+const ItemsContainer = styled.div`
+  display: flex;
+  align-items: center;
+  padding: 23px;
+  justify-content: center;
+  margin-left: 10px;
+
+  @media screen and (max-width: 800px) {
+    flex-direction: column;
+  }
+`;
+
+const ListContainer = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 25px;
+  font-size: 11px;
+
+  @media screen and (max-width: 800px) {
+    flex-direction: column;
+  }
 `;
 
 function Menu() {
   return (
     <MenuContainer>
-      <div
-        style={{
-          display: "flex",
-          alignItems: "center",
-          padding: "23px",
-          justifyContent: "center",
-          marginLeft: '10px'
-        }}
-      >
-        <div
-          style={{
-            display: "flex",
-            alignItems: "center",
-            // padding: "25px",
-            justifyContent: "center",
-            marginLeft: '25px',
-            fontSize: '11px',
-
-          }}
-        >
-
-
-        <h2
-          style={{
-            marginLeft: "22px",
-            color: "white",
-          }}
+      <ItemsContainer>
+        <ListContainer>
+          <h2
+            style={{
+              marginLeft: "22px",
+              color: "white",
+            }}
           >
-          SAÚDE MENTAL
-        </h2>
+            SAÚDE MENTAL
+          </h2>
 
-        <h2
-          style={{
-            marginLeft: "45px",
-            color: "white",
-            
-          }}
+          <h2
+            style={{
+              marginLeft: "45px",
+              color: "white",
+            }}
           >
-         PRINCIPAIS CONDIÇÕES
-        </h2>
+            PRINCIPAIS CONDIÇÕES
+          </h2>
 
-        <h2
-          style={{
-            marginLeft: "45px",
-            color: "white",
-            
-          }}
+          <h2
+            style={{
+              marginLeft: "45px",
+              color: "white",
+            }}
           >
-         CUIDANDO DA SAUDE MENTAL
-        </h2>
+            CUIDANDO DA SAUDE MENTAL
+          </h2>
 
-        <h2
-          style={{
-            marginLeft: "45px",
-            color: "white",
-            
-          }}
+          <h2
+            style={{
+              marginLeft: "45px",
+              color: "white",
+            }}
           >
-         BUSCANDO AJUDA
-        </h2>
+            BUSCANDO AJUDA
+          </h2>
 
-        <h2
-          style={{
-            marginLeft: "45px",
-            color: "white",
-            
-          }}
+          <h2
+            style={{
+              marginLeft: "45px",
+              color: "white",
+            }}
           >
-         O QUE ESTUDAR
-        </h2>
-      </div>
-          </div>
+            O QUE ESTUDAR
+          </h2>
+        </ListContainer>
+      </ItemsContainer>
     </MenuContainer>
   );
 }

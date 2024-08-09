@@ -42,7 +42,6 @@ function Menu() {
           style={{
             marginLeft: "22px",
             color: "white",
-            lineHeight: "10px",
           }}
           >
           SAÚDE MENTAL
@@ -52,7 +51,7 @@ function Menu() {
           style={{
             marginLeft: "45px",
             color: "white",
-            lineHeight: "10px",
+            
           }}
           >
          PRINCIPAIS CONDIÇÕES
@@ -62,7 +61,7 @@ function Menu() {
           style={{
             marginLeft: "45px",
             color: "white",
-            lineHeight: "10px",
+            
           }}
           >
          CUIDANDO DA SAUDE MENTAL
@@ -72,7 +71,7 @@ function Menu() {
           style={{
             marginLeft: "45px",
             color: "white",
-            lineHeight: "10px",
+            
           }}
           >
          BUSCANDO AJUDA
@@ -82,7 +81,7 @@ function Menu() {
           style={{
             marginLeft: "45px",
             color: "white",
-            lineHeight: "10px",
+            
           }}
           >
          O QUE ESTUDAR

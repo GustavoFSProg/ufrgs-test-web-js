@@ -21,9 +21,9 @@ const HeaderContainer = styled.div`
 const SubContainer = styled.div`
   display: flex;
   align-items: center;
-  padding: 39px;
+  padding: 20px;
   justify-content: center;
-  margin-left: 10px;
+  margin-left: 25px;
 
   @media screen and (max-width: 600px) {
     flex-direction: column;
@@ -41,7 +41,7 @@ const H2 = styled.h2`
   letter-spacing: 1px;
   font-size: 40px;
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 700px) {
     width: 100%;
     font-size: 28px;
     margin-left: 0px;

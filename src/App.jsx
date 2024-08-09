@@ -5,6 +5,7 @@ import './App.css'
 import Header from './components/Header/Header'
 import Menu from './components/Menu/Menu'
 import styled from 'styled-components'
+import Footer from './components/Footer/Footer'
 
 const Container = styled.div`
   display: flex;
@@ -70,6 +71,8 @@ function App() {
             </Conteudo>
 
         </Container>
+
+        <Footer />
        
       </div>
      

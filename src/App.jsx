@@ -13,6 +13,10 @@ const Container = styled.div`
   height: 100vh;
   /* background: green; */
   justify-content: center;
+
+  @media screen and (max-width: 800px){
+    height: auto;
+  }
   
 
 `

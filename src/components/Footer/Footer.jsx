@@ -12,10 +12,6 @@ const FooterContainer = styled.div`
   background: #333333;
   color: white;
 
-  @media screen and (max-width: 600px) {
-    justify-content: flex-start;
-    align-items: left;
-  }
 `;
 
 
@@ -26,14 +22,6 @@ const H2 = styled.h2`
   letter-spacing: 1px;
   font-size: 16px;
 
-  @media screen and (max-width: 700px) {
-    width: 100%;
-    font-size: 28px;
-    margin-left: 0px;
-    margin-top: 2px;
-  letter-spacing: 0px;
-
-  }
 `;
 
 function Footer() {

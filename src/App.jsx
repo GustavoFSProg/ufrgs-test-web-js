@@ -28,6 +28,10 @@ const Conteudo = styled.div`
   align-items: flex-start;
   font-family: 'Francois One';
 
+  @media screen and (max-width: 800px){
+    width: 81%;
+  }
+
 `
 
 function App() {

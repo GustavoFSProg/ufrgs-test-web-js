@@ -16,7 +16,7 @@ const MenuContainer = styled.div`
   color: white;
 
   @media screen and (max-width: 800px) {
-   margin-top: -32px;
+   margin-top: -27px;
   }
 `;
 

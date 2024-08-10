@@ -1,5 +1,7 @@
 import styled from "styled-components";
 import flores from "../../assets/flores.png";
+import { useEffect, useState } from "react";
+
 
 const MenuContainer = styled.div`
   display: flex;
@@ -32,21 +34,75 @@ const ListContainer = styled.div`
   margin-left: 25px;
   font-size: 11px;
 
+
   @media screen and (max-width: 800px) {
     flex-direction: column;
   }
 `;
 
 function Menu() {
+  const [open, setOpen] = useState(false)
+
+
+function FirstMenu() {
+  const [opens, setOpens] = useState(true);
+
+
   return (
-    <MenuContainer>
+    <>
+        <>
+      <div
+        style={{
+            display: "flex",
+            flexDirection: "column",
+            width: "12.5rem",
+            height: "17rem",
+            alignItems: 'flex-start',
+            justifyContent: 'flex-start',
+            background: "#d9d9d9",
+            marginLeft: "50px",
+            border: '1px solid #a6a6a6',
+            fontSize: '16px',
+            color: '#333333',
+        }}
+        onMouseLeave={() => setOpen(false)}
+        >
+          <div style={{ display: "flex",
+            flexDirection: "column",
+            alignItems: 'flex-start',
+            justifyContent: 'flex-start',
+            marginLeft: '15px',
+  fontFamily: "Francois One",
+            
+            }}>
+
+        <span style={{marginTop: '18px', cursor: 'pointer'}}>DEPRESSÃO</span>
+        <span style={{marginTop: '10px', cursor: 'pointer'}}>BIPOLARIDADE</span>
+        <span style={{marginTop: '10px', cursor: 'pointer'}}>AUTISMO</span>
+        <span style={{marginTop: '10px', cursor: 'pointer'}}>EPILEPSIA</span>
+        <span style={{marginTop: '10px', cursor: 'pointer'}}>LABIRINTITE</span>
+        <span style={{marginTop: '10px', cursor: 'pointer'}}>TONTURA</span>
+          </div>
+      </div>
+          </>
+    </>
+  );
+}
+
+  return (
+    <>
+    <MenuContainer >
       <ItemsContainer>
-        <ListContainer>
+        <ListContainer >
           <h2
             style={{
               marginLeft: "22px",
               color: "white",
+              cursor: 'pointer',
             }}
+            onClick={() => setOpen(true)}
+            // onMouseLeave={() => setOpen(false)}
+
           >
             SAÚDE MENTAL
           </h2>
@@ -89,6 +145,9 @@ function Menu() {
         </ListContainer>
       </ItemsContainer>
     </MenuContainer>
+
+     {open === true ? <FirstMenu /> : null }
+     </>
   );
 }
 

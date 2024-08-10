@@ -56,9 +56,7 @@ function Header() {
     <HeaderContainer>
       <SubContainer>
         <img width="50" height="80" src={flores} alt="flores" />
-        {/* <div> */}
-        <H2>Saúde Mental UFRGS</H2>
-        {/* </div> */}
+        <H2>Ambulatório de Saúde Mental - NH</H2>
       </SubContainer>
     </HeaderContainer>
   );

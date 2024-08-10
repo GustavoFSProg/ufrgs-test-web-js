@@ -46,7 +46,7 @@ function App() {
         <Container>
           <Conteudo>
             <h2 style={{ marginTop: "40px" }}>
-              Bem-vindos ao site Saúde Mental UFRGS!
+              Bem-vindos ao site do Ambulatório de Saúde Mental!
             </h2>
             <div
               style={{

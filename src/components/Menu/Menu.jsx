@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import flores from "../../assets/flores.png";
 import { useEffect, useState } from "react";
+import SimpleMenu from "../MenuHamburguer/Menu/menu";
 
 
 const MenuContainer = styled.div`
@@ -35,8 +36,9 @@ const ListContainer = styled.div`
   font-size: 11px;
 
 
-  @media screen and (max-width: 800px) {
-    flex-direction: column;
+
+  @media screen and (max-width: 751px) {
+   display: none;
   }
 `;
 
@@ -144,6 +146,8 @@ function FirstMenu() {
           </h2>
         </ListContainer>
       </ItemsContainer>
+      <SimpleMenu />
+
     </MenuContainer>
 
      {open === true ? <FirstMenu /> : null }

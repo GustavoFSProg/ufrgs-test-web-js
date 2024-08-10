@@ -14,6 +14,10 @@ const MenuContainer = styled.div`
   /* background: #e6e6e681; */
   background: #333333;
   color: white;
+
+  @media screen and (max-width: 800px) {
+   margin-top: -32px;
+  }
 `;
 
 const ItemsContainer = styled.div`

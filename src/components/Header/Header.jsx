@@ -51,11 +51,22 @@ const H2 = styled.h2`
   }
 `;
 
+const Img = styled.img`
+width: 50px;
+height: 80px;
+
+@media screen and (max-width: 800px){
+  width: 29px;
+height: 44px;
+
+}
+`
+
 function Header() {
   return (
     <HeaderContainer>
       <SubContainer>
-        <img width="50" height="80" src={flores} alt="flores" />
+        <Img width="50" height="80" src={flores} alt="flores" />
         <H2>Ambulatório de Saúde Mental - NH</H2>
       </SubContainer>
     </HeaderContainer>

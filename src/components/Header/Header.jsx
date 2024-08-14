@@ -56,8 +56,9 @@ width: 50px;
 height: 80px;
 
 @media screen and (max-width: 800px){
-  width: 29px;
-height: 44px;
+  /* width: 29px; */
+/* height: 44px; */
+display: none;
 
 }
 `

@@ -75,11 +75,12 @@ function App() {
                   color: "#595959",
                 }}
               >
-                O site Saúde Mental foi criado em 2018 pelo Centro
-                Interdisciplinar de Pesquisa e Atenção à Saúde (CIPAS), órgão
-                auxiliar do Instituto de Psicologia. Em 2023, o site foi
-                vinculado ao Programa Saber Viver, o qual tem por objetivo a
-                promoção de saúde e bem-estar estudantil na universidade.
+                 Este é somente um texto de exemplo.
+                Fusce eleifend malesuada arcu, sit amet accumsan sapien suscipit vitae. 
+                Proin gravida ac dui quis tincidunt. Nam et sodales mauris.
+                 Maecenas lectus purus, tincidunt ut lobortis non, condimentum non nisl. 
+                 Interdum et malesuada fames ac ante ipsum primis in faucibus..
+                 Aliquam consequat nisi sit amet augue tincidunt, et interdum risus malesuada.
               </p>
 
               <p
@@ -90,12 +91,12 @@ function App() {
                   color: "#595959",
                 }}
               >
-                Em nossos conteúdos, são abordados aspectos gerais da saúde
-                mental, principais condições, estratégias de cuidado,
-                orientações sobre acolhimento em situações de crise e
-                possibilidades de acesso a tratamento em serviços de saúde. As
-                publicações disponibilizadas foram elaboradas por colaboradores
-                de diversos setores da universidade.
+                Em nossos conteúdos, Este é somente um texto de exemplo.
+                Fusce eleifend malesuada arcu, sit amet accumsan sapien suscipit vitae. 
+                Proin gravida ac dui quis tincidunt. Nam et sodales mauris.
+                Aliquam consequat nisi sit amet augue tincidunt, et interdum risus malesuada.
+                 Maecenas lectus purus, tincidunt ut lobortis non, condimentum non nisl. 
+                 Interdum et malesuada fames ac ante ipsum primis in faucibus...
               </p>
             </div>
           </Conteudo>
